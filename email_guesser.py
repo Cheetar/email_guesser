@@ -12,7 +12,7 @@ def main(argv):
     r = 5
     separators = []
 
-    usage_info = 'Usage: python main.py -f <firstname> -l <lastname> -y <year> -d <domain> -s <separators> -r <range>'
+    usage_info = 'Usage: python email_guesser.py -f <firstname> -l <lastname> -y <year> -d <domain> -s <separators> -r <range>'
 
     try:
         opts, args = getopt.getopt(argv, "hf:l:y:d:s:r:",
